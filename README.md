@@ -1,7 +1,7 @@
 # Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery
 This repository provides the code, images and annotations of the research "Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery".
 
-# Algorithms
+# Research
 In the [algorithms](algorithms/) folder, code and tutorials for applying **TrackR-CNN** and **PWC-Net** to Multi Object Tracking and Segmentation (MOTS) are provided. PWC-Net is tested as an alternative tracking method to the association head used in TrackR-CNN. 
 
 If you want to use **PWC-Net**, go to its folder for [instructions](algorithms/PWC-Net/)
@@ -34,16 +34,17 @@ The following images are examples of the seven datasets that comprise COW_MOTS. 
 
 Images and annotations of **COW_MOTS** will be made publicly available soon.
 
+# Algorithms
 
-# TrackR-CNN
+## TrackR-CNN
 Here, I provide scripts and tutorials for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
 
-## Videos of results
+### Videos of results
 
 ![](visualizations/cows.gif)
 
-## Installation and setup
-### Hardware
+### Installation and setup
+#### Hardware
 TrackR-CNN has been implemented on a high performance computer and on the Anunna High Performance Cluster (HPC).
 
 High performance computer specs:
@@ -57,7 +58,7 @@ High Performance Cluster specs:
 - 64 GB RAM memory
 - Scientific linux
 
-### Requirements
+#### Requirements
 - Install [Anaconda](https://www.anaconda.com/products/individual)
 - Set up a virtual environment
     - `conda create --name myenv python=3.6.7`
@@ -67,7 +68,7 @@ High Performance Cluster specs:
 - Navigate to the TrackR-CNN directory and install the requirements
     - `cd MOTS/algorithms/TrackR-CNN`
     - `pip install -r requirements.txt`
-### Folder structure
+#### Folder structure
 - Create the following folders in algorithms/TrackR-CNN:
     - `mkdir, forwarded, models, summaries, logs, data`
 - After running the code, the algorithm's output will be stored in these folders:
@@ -105,10 +106,10 @@ models/
 ...
 main.py
 ```
-## Training
+### Training
 To train a model, navigate to `MOTS/algorithms/TrackR-CNN` and run `main.py` with the corresponding configuration file e.g., `python main.py configs/3dconv4` (`cd algorithms/TrackR-CNN`). If you are running the algorithm in Windows, you may get an error stating that the key **USER** has not been found among the environment variables. In this case, add it to the dictionary by writing `os.environ["USER"] = os.environ["USERNAME"]` at the beginning of the main() function in main.py
 
-### Configuration files
+#### Configuration files
 In the configuration files:
 
 Point `KITTI_segtrack_data_dir` to your `train` folder; e.g., `"KITTI_segtrack_data_dir": "/home/saidlab/Thesis_DiegoBarbuloBarrios/MOTS/algorithms/TrackR-CNN/data/COW_MOTS/train/"`
@@ -119,7 +120,7 @@ Optimal values for the hyperparameters (epochs and batch size) used to train eac
 
 As a temporal component, three models (3dconv) use two 3D convolutional layers and one model (lstm8) uses two stacked LSTM layers. The number at the end of the models' names refers to the batch size.
 
-### COW_MOTS
+#### COW_MOTS
 There are two possibilities to train TrackR-CNN on COW_MOTS.
 
 1. Train a model pre-trained on COCO and Mapillary:
@@ -136,7 +137,7 @@ There are two possibilities to train TrackR-CNN on COW_MOTS.
 
 If you want to use the best performing model (trained on COW_MOTS), you can download it [here](https://drive.google.com/drive/folders/17SVb5kvjAHM9P7BIQb5wgZjN6RZV4qQT?usp=sharing).
 
-### Custom dataset
+#### Custom dataset
 To train TrackR-CNN on a custom dataset:
 - Change in a config file:
     - Model name
@@ -148,7 +149,7 @@ To train TrackR-CNN on a custom dataset:
     - Navigate to `MOTS/algorithms/TrackR-CNN/datasets/KITTI/segtrack/KITTI_segtrack.py` and change the variable `N_MAX_DETECTIONS` the maximum number of detections (frame with highest number of targets) in your dataset. A higher value than the highest number would also work.
 
 
-## Forwarding and tracking
+### Forwarding and tracking
 First, make sure to add the datasets on which you want to apply forwarding and tracking to the **train** folder before running the respective procedures.
 
 To obtain the models' detections, run the following command on the terminal:
@@ -165,10 +166,10 @@ python main.py configs/CONFIG_FILE_NAME
 ```
 Visualizations will be stored in `forwarded/<model_name>/vis/tracks`.
 
-### Visualization
+#### Visualization
 To change the class assigned to the detections (e.g., cow), go to `TrackR-CNN/mots_tools/mots_vis/visualize_mots.py` and change the `category_name` from "Cow" to the desired class. In case you want to detect and track more than one class, also change the second `category_name` from "Pedestrian" to the desired class and, if needed, add more classes.
 
-## Tuning
+### Tuning
 The tuning procedure is used to find the best tracking parameters for the model on a specific dataset. It relies on a random search approach on the training dataset, after which the best parameters are tested on the test dataset and the tracking metrics are calculated.
 
 Before running the tuning procedure, make sure to add both training and testing datasets to the **train** folder. In order to specify the training and testing sequences, follow this procedure:
@@ -182,20 +183,22 @@ python scripts/eval/segtrack_tune_experiment.py /path/to/detections/ /path/to/gr
 ```
 where `/path/to/detections/` is the folder containing the detections obtained by running the "forwarding" command above; `/path/to/mots_eval/` refers to the "mots eval" folder contained in the "mots tools" directory; `association_type` determines the method (association head or optical flow) for associating detections into tracks and is either `reid` (relying on the association head), `mask` (using optical flow), `bbox_iou` (using bounding box warping with median optical flow) or `bbox_center` (using nearest neighbor matching); `num_iterations` is the number of random trials (1000 in this study); `/path/to/groundtruth/ ` refers to the `instances` or `instances_txt` folder containing the annotations; `/path/to/precomputed_optical_flow` has to be set to a folder containing the optical flow images - namely when setting `association_type` to `mask` or `bbox_iou` but if you set it to something else, then the flow path is ignored; at `/path/to/output_file`, a file will be created containing the results of the individual tuning iterations, please make sure this path is writable; at `/path/to/tmp_folder` a lot of intermediate folders will be stored, you can delete these afterwards.
 
-## Optical Flow
-To use optical flow as a tracking mechanism, go to the the [PWC-Net folder](algorithms/PWC-Net) and follow the instructions described in the [README.md](algorithms/PWC-Net) file for generating optical flow images from a dataset and naming them according to the format required by TrackR-CNN. Then, change the following in the tuning procedure:
-- Point the `/path/to/precomputed_optical_flow` to the location where the optical flow images are stored. 
-- Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
-
-Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism.
-
-## Evaluation
+### Evaluation
 The code from the [mots_tools repository](https://github.com/VisualComputingInstitute/mots_tools) has been included in this respository to make the evaluation of the results easier and faster.
 
 To obtain all the metrics for your model on the testing dataset, run `eval.py` in `mots_tools/mots_eval`. Before running the script, set the right path to the "mots tools" folder e.g., `sys.path.append(/home/saidlab/Thesis_DiegoBarbuloBarrios/MOTS/algorithms/TrackR-CNN/mots_tools/)`.
 
-### Counting
+#### Counting
 In order to get the counting results of the model on your dataset, run `eval.py` and look at the **TR Trk** metric results (i.e., number of tracks predicted by the model). To test the model's counting efficiency, compare it with the ground truth tracks, which you can find under the metric **GT Trk**.
+
+## Optical Flow
+To use optical flow as a tracking mechanism, go to the the [PWC-Net folder](algorithms/PWC-Net) and follow the instructions described in the [README.md](algorithms/PWC-Net) file for generating optical flow images from a dataset and naming them according to the format required by TrackR-CNN. 
+
+After generating the optical flow imgages in the required format, change the following in the tuning procedure:
+- Point the `/path/to/precomputed_optical_flow` to the location where the optical flow images are stored. 
+- Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
+
+Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism.
 
 ## References
 The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN).
