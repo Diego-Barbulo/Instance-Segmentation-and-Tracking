@@ -7,7 +7,6 @@ In the "algorithms" folder, scripts and tutorials for applying [TrackR-CNN](algo
 The following flowchart illustrates the steps followed to conduct our research:
 
 ![](visualizations/Flowchart.png)
-
 # Models
 Configuration files for our models can be found in algorithms/TrackR-CNN. I use two temporal components (3D convolutions and LSTM convolutions), and two tracking mechanisms (optical flow and an association head).
 
