@@ -25,10 +25,10 @@ The COW_MOTS dataset consists of 959 frames, 20,647 masks, and 239 tracks. Groun
 
 The following images are examples of the seven datasets that comprise COW_MOTS. They illustrate data collected at different atmospheric conditions (temperature and sunlight) and angles of inclination:
 
-<img src="visualizations/0000.png" width="100"> <img src="visualizations/0001.png" width="100">
-<img src="visualizations/0002.png" width="100"> <img src="visualizations/0003.png" width="100">
-<img src="visualizations/0004.png" width="100"> <img src="visualizations/0005.png" width="100">
-<img src="visualizations/0006.png" width="100">
+<img src="visualizations/0000.png" width="250"> <img src="visualizations/0001.png" width="250">
+<img src="visualizations/0002.png" width="250"> <img src="visualizations/0003.png" width="250">
+<img src="visualizations/0004.png" width="250"> <img src="visualizations/0005.png" width="250">
+<img src="visualizations/0006.png" width="250">
 
 Images and annotations of **COW_MOTS** will be made publicly available soon.
 

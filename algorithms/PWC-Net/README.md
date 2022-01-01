@@ -4,6 +4,7 @@ Here, I provide the scripts and tutorials for generating optical flow images fro
 ## Video of results
 
 ![](visualizations/original.gif) ![](visualizations/flow.gif)
+<img src="visualizations/original.gif" width="370"> <img src="visualizations/glow.gif" width="370">
 
 PWC-Net detects pixel motion between consecutive frames, so only the cows in movement are detected by the algorithm.
 
