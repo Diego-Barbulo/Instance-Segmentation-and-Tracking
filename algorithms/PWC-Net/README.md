@@ -44,7 +44,7 @@ To generate a pair of UV images from each flow file (previously generated from t
 - Run **UV_files_generator.py**
 
 ## Minimum flow values
-To obtain the minimum flow value of each flow file (a requirement to run optical flow within TrackR-CNN), this repository provides code from the Middlebury evaluation [link](https://vision.middlebury.edu/flow/submit/) under the **color_files_&_minimum_flow** folder.
+To obtain the minimum flow value of each flow file (a requirement to run optical flow within TrackR-CNN), this repository provides code from the [Middlebury evaluation](https://vision.middlebury.edu/flow/submit/) under the **color_files_&_minimum_flow** folder.
 
 ### Runing the code
 Follow these steps:
