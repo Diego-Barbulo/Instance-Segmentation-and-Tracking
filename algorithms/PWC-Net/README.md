@@ -1,5 +1,5 @@
 # Optical Flow
-Here, I provide the scripts and tutorials for generating optical flow images from our COW MOTS dataset. Once these images have been generated, optical flow will be used as a tracking mechanism in the TrackR-CNN algorithm (go to the TrackR-CNN readme for instructions).
+Here, I provide the scripts and tutorials for generating optical flow images from the COW MOTS dataset. Once these images have been generated, optical flow will be used as a tracking mechanism in the TrackR-CNN algorithm (go to the TrackR-CNN readme for instructions).
 
 ## Video of results
 
