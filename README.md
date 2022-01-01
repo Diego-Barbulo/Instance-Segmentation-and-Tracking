@@ -37,7 +37,9 @@ Images and annotations of **COW_MOTS** will be made publicly available soon.
 # Algorithms
 
 ## TrackR-CNN
-Here, I provide scripts and tutorials for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
+Here, I provide a tutorial for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
+
+If you want to apply **PWC-Net** together with **Track R-CNN**, go to the [PWC-Net folder](algorithms/PWC-Net) for instructions.
 
 ### Videos of results
 
