@@ -1,0 +1,56 @@
+{
+  # Engine settings
+  "model": "3dconv8_24",
+  "task": "train_no_val",
+  "dataset": "KITTI_segtrack",
+  "log_verbosity": 5,
+  "gpus": 1,
+  #"own_dataset_per_gpu": true,
+  "use_summaries": false,
+  "write_summaries": false,
+  "collect_run_metadata": false,
+
+  # MaskRCNN on/off
+  "add_masks": true,
+
+  # Pretrained model from tensorpack
+  "load_init": "/home/saidlab/Thesis_Diego_BarbuloBarrios/rt-obj-tracking/algorithms/TrackR-CNN/models/conv3d_sep2/conv3d_sep2-00000005",
+  # Freeze applies to the whole model, not just our backend, but that's fine since only the backend uses batchnorm
+  "freeze_batchnorm": true,
+  "max_saves_to_keep": 1,
+
+  # Training settings
+  "batch_size": 8,
+  "learning_rates": "{1: 0.0000005}",
+  "optimizer": "adam",
+  "num_epochs": 25,
+  "max_saves_to_keep": 1,
+
+  # Dataset options
+  "KITTI_segtrack_data_dir": "/home/saidlab/Thesis_Diego_BarbuloBarrios/rt-obj-tracking/algorithms/TrackR-CNN/data/COW_MOTS/train/",
+  "optical_flow_path": "/home/saidlab/Thesis_Diego_BarbuloBarrios/rt-obj-tracking/Algorithms/TrackR-CNN/tuning/optical_flowing/",
+  "prefer_gt_to_ignore": true,
+  "use_ioa_for_ignore": true,
+  "use_masks_for_ignore": true,
+  "resize_mode_train": "fixed_size",
+  "input_size_train": [1000, 1360],
+  "resize_mode_val": "fixed_size",
+  "input_size_val": [1000, 1360],
+
+  "augmentors_train": ["flip", "gamma"],
+  "num_parallel_calls": 6,
+  "prefetch_buffer_size": 8,
+
+  "mask_disjoint_strategy": "score",
+"tracker": "hungarian", "tracker_reid_comp": "euclidean", "detection_confidence_threshold_car": 0.8611193308301728, "reid_weight_car": 1.0, "mask_iou_weight_car": 0.0, "bbox_center_weight_car": 0.0, "bbox_iou_weight_car": 0.0, "association_threshold_car": 0.323314325798953, "keep_alive_car": 11, "reid_euclidean_offset_car": 17.141126349692623, "reid_euclidean_scale_car": 1.547784286041686,
+"detection_confidence_threshold_pedestrian": 0.9368820089063415, "reid_weight_pedestrian": 1.0, "mask_iou_weight_pedestrian": 0.0, "bbox_center_weight_pedestrian": 0.0, "bbox_iou_weight_pedestrian": 0.0, "association_threshold_pedestrian": 0.47985540892434836, "keep_alive_pedestrian": 6, "reid_euclidean_offset_pedestrian": 9.447084376750222, "reid_euclidean_scale_pedestrian": 1.3437965549876354,
+
+  "network": {
+    "resnetconv4": {"class": "ResNet101Conv4"},
+    "conv3d_1": {"class": "SepConv3DOverBatch", "activation": "relu", "n_features": 1024, "init_type": "identity", "from": ["resnetconv4"], "old_order": true},
+    "conv3d_2": {"class": "SepConv3DOverBatch", "activation": "relu", "n_features": 1024, "init_type": "identity", "from": ["conv3d_1"], "old_order": true},
+    "frcnn": {"class": "FasterRCNN", "fastrcnn_batch_per_img": 64, "reid_dimension": 128, "reid_loss_per_class": true,
+              "reid_loss_factor": 1.0, "reid_loss_variant": 1, "reid_measure": "euclidean", "from": ["conv3d_2"],
+              "class_agnostic_box_and_mask_heads": true}
+  }
+}

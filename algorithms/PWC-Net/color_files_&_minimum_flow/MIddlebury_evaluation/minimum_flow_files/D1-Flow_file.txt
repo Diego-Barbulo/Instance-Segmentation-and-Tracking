@@ -1,0 +1,898 @@
+Traceback (most recent call last):
+  File "script1.py", line 6, in <module>
+    os.system("./color_flow flow/D1-Flow_files/{:06d}.flo end1/{:06d}.png".format(one_argument, two_argument))
+NameError: name 'os' is not defined
+normalizing by 13.9403
+Writing image end1/000000.png
+max motion: 13.9403  motion range: u = 3.212 .. 13.148;  v = -7.028 .. 3.906
+normalizing by 10.6776
+Writing image end1/000001.png
+max motion: 10.6776  motion range: u = -0.297 .. 8.639;  v = -6.275 .. 1.177
+normalizing by 5.4867
+Writing image end1/000002.png
+max motion: 5.4867  motion range: u = -1.456 .. 4.016;  v = -3.795 .. 0.175
+normalizing by 6.94926
+Writing image end1/000003.png
+max motion: 6.9493  motion range: u = -1.933 .. 4.334;  v = -5.432 .. 0.983
+normalizing by 6.83137
+Writing image end1/000004.png
+max motion: 6.8314  motion range: u = -1.498 .. 5.432;  v = -4.272 .. 0.023
+normalizing by 9.58796
+Writing image end1/000005.png
+max motion: 9.5880  motion range: u = -1.426 .. 7.236;  v = -6.290 .. -0.210
+normalizing by 4.56157
+Writing image end1/000006.png
+max motion: 4.5616  motion range: u = -1.252 .. 4.092;  v = -2.846 .. 2.442
+normalizing by 3.38258
+Writing image end1/000007.png
+max motion: 3.3826  motion range: u = -1.344 .. 2.450;  v = -2.458 .. 0.637
+normalizing by 6.82697
+Writing image end1/000008.png
+max motion: 6.8270  motion range: u = -1.333 .. 5.392;  v = -4.441 .. -0.024
+normalizing by 5.22007
+Writing image end1/000009.png
+max motion: 5.2201  motion range: u = -1.347 .. 4.520;  v = -3.477 .. -0.463
+normalizing by 4.59343
+Writing image end1/000010.png
+max motion: 4.5934  motion range: u = -1.342 .. 3.730;  v = -3.438 .. 1.079
+normalizing by 3.4766
+Writing image end1/000011.png
+max motion: 3.4766  motion range: u = -1.246 .. 2.864;  v = -1.971 .. 0.180
+normalizing by 8.79862
+Writing image end1/000012.png
+max motion: 8.7986  motion range: u = -1.131 .. 8.216;  v = -3.148 .. -0.275
+normalizing by 6.19058
+Writing image end1/000013.png
+max motion: 6.1906  motion range: u = -1.203 .. 5.988;  v = -1.820 .. -0.187
+normalizing by 7.45203
+Writing image end1/000014.png
+max motion: 7.4520  motion range: u = -0.955 .. 6.911;  v = -2.883 .. -0.272
+normalizing by 6.17099
+Writing image end1/000015.png
+max motion: 6.1710  motion range: u = -0.944 .. 5.881;  v = -2.202 .. -0.137
+normalizing by 5.09194
+Writing image end1/000016.png
+max motion: 5.0919  motion range: u = -0.975 .. 4.984;  v = -1.627 .. 0.487
+normalizing by 5.30807
+Writing image end1/000017.png
+max motion: 5.3081  motion range: u = -1.453 .. 4.441;  v = -2.908 .. 0.471
+normalizing by 5.20523
+Writing image end1/000018.png
+max motion: 5.2052  motion range: u = -1.903 .. 5.100;  v = -1.506 .. 1.254
+normalizing by 4.70244
+Writing image end1/000019.png
+max motion: 4.7024  motion range: u = -1.962 .. 4.663;  v = -0.885 .. 2.151
+normalizing by 5.0008
+Writing image end1/000020.png
+max motion: 5.0008  motion range: u = -1.946 .. 4.943;  v = -0.791 .. 3.097
+normalizing by 4.84928
+Writing image end1/000021.png
+max motion: 4.8493  motion range: u = -2.337 .. 4.840;  v = -0.999 .. 3.648
+normalizing by 5.72598
+Writing image end1/000022.png
+max motion: 5.7260  motion range: u = -3.220 .. 4.033;  v = -1.203 .. 4.735
+normalizing by 7.7189
+Writing image end1/000023.png
+max motion: 7.7189  motion range: u = -2.936 .. 7.287;  v = -2.555 .. 5.269
+normalizing by 8.27006
+Writing image end1/000024.png
+max motion: 8.2701  motion range: u = -2.629 .. 8.250;  v = -0.182 .. 6.099
+normalizing by 7.32768
+Writing image end1/000025.png
+max motion: 7.3277  motion range: u = -3.256 .. 6.926;  v = -0.032 .. 6.564
+normalizing by 8.22937
+Writing image end1/000026.png
+max motion: 8.2294  motion range: u = -3.729 .. 6.306;  v = 0.165 .. 7.336
+normalizing by 8.98131
+Writing image end1/000027.png
+max motion: 8.9813  motion range: u = -3.379 .. 8.837;  v = 0.395 .. 7.726
+normalizing by 9.15925
+Writing image end1/000028.png
+max motion: 9.1593  motion range: u = -3.410 .. 5.559;  v = 0.426 .. 8.501
+normalizing by 10.3663
+Writing image end1/000029.png
+max motion: 10.3663  motion range: u = -4.310 .. 7.126;  v = 0.095 .. 9.428
+normalizing by 10.3905
+Writing image end1/000030.png
+max motion: 10.3905  motion range: u = -3.637 .. 6.362;  v = 0.639 .. 9.733
+normalizing by 11.4586
+Writing image end1/000031.png
+max motion: 11.4586  motion range: u = -4.319 .. 6.831;  v = 0.934 .. 10.613
+normalizing by 11.7048
+Writing image end1/000032.png
+max motion: 11.7048  motion range: u = -4.278 .. 6.326;  v = 1.146 .. 10.895
+normalizing by 11.869
+Writing image end1/000033.png
+max motion: 11.8690  motion range: u = -4.453 .. 5.186;  v = 1.094 .. 11.002
+normalizing by 12.582
+Writing image end1/000034.png
+max motion: 12.5820  motion range: u = -5.204 .. 6.548;  v = 1.404 .. 11.455
+normalizing by 12.708
+Writing image end1/000035.png
+max motion: 12.7080  motion range: u = -5.684 .. 5.310;  v = 0.772 .. 11.366
+normalizing by 11.5908
+Writing image end1/000036.png
+max motion: 11.5908  motion range: u = -5.187 .. 5.639;  v = 1.152 .. 10.365
+normalizing by 11.8312
+Writing image end1/000037.png
+max motion: 11.8312  motion range: u = -5.261 .. 6.445;  v = 0.704 .. 10.597
+normalizing by 12.5129
+Writing image end1/000038.png
+max motion: 12.5129  motion range: u = -6.032 .. 5.607;  v = 1.204 .. 10.963
+normalizing by 12.031
+Writing image end1/000039.png
+max motion: 12.0310  motion range: u = -5.765 .. 7.482;  v = 0.746 .. 10.560
+normalizing by 11.4925
+Writing image end1/000040.png
+max motion: 11.4925  motion range: u = -4.862 .. 7.878;  v = 0.879 .. 10.413
+normalizing by 11.5555
+Writing image end1/000041.png
+max motion: 11.5555  motion range: u = -4.978 .. 3.133;  v = 0.496 .. 10.428
+normalizing by 11.6826
+Writing image end1/000042.png
+max motion: 11.6826  motion range: u = -5.026 .. 5.538;  v = 0.926 .. 10.546
+normalizing by 11.0225
+Writing image end1/000043.png
+max motion: 11.0225  motion range: u = -4.842 .. 4.207;  v = 0.355 .. 9.902
+normalizing by 11.4734
+Writing image end1/000044.png
+max motion: 11.4734  motion range: u = -5.208 .. 6.329;  v = 1.184 .. 10.223
+normalizing by 10.3448
+Writing image end1/000045.png
+max motion: 10.3448  motion range: u = -4.412 .. 4.468;  v = 1.018 .. 9.357
+normalizing by 10.1947
+Writing image end1/000046.png
+max motion: 10.1947  motion range: u = -4.317 .. 4.892;  v = 1.039 .. 9.236
+normalizing by 10.4858
+Writing image end1/000047.png
+max motion: 10.4858  motion range: u = -4.573 .. 6.603;  v = 0.995 .. 9.436
+normalizing by 10.4227
+Writing image end1/000048.png
+max motion: 10.4227  motion range: u = -4.541 .. 6.399;  v = 1.045 .. 9.382
+normalizing by 9.75855
+Writing image end1/000049.png
+max motion: 9.7586  motion range: u = -3.222 .. 7.843;  v = 0.955 .. 9.211
+normalizing by 10.1182
+Writing image end1/000050.png
+max motion: 10.1182  motion range: u = -4.132 .. 7.688;  v = 0.937 .. 9.236
+normalizing by 9.54624
+Writing image end1/000051.png
+max motion: 9.5462  motion range: u = -3.858 .. 6.011;  v = 0.607 .. 8.732
+normalizing by 9.51088
+Writing image end1/000052.png
+max motion: 9.5109  motion range: u = -3.936 .. 8.629;  v = 0.662 .. 8.658
+normalizing by 8.92843
+Writing image end1/000053.png
+max motion: 8.9284  motion range: u = -3.379 .. 8.316;  v = 0.688 .. 8.264
+normalizing by 8.98664
+Writing image end1/000054.png
+max motion: 8.9866  motion range: u = -3.405 .. 7.633;  v = 0.643 .. 8.317
+normalizing by 8.75125
+Writing image end1/000055.png
+max motion: 8.7513  motion range: u = -3.007 .. 6.756;  v = 0.637 .. 8.218
+normalizing by 9.37429
+Writing image end1/000056.png
+max motion: 9.3743  motion range: u = -3.318 .. 6.814;  v = 0.834 .. 8.767
+normalizing by 9.09801
+Writing image end1/000057.png
+max motion: 9.0980  motion range: u = -3.675 .. 6.267;  v = 0.840 .. 8.323
+normalizing by 8.58279
+Writing image end1/000058.png
+max motion: 8.5828  motion range: u = -3.671 .. 6.817;  v = 0.469 .. 7.758
+normalizing by 8.65129
+Writing image end1/000059.png
+max motion: 8.6513  motion range: u = -2.926 .. 6.960;  v = 0.757 .. 8.215
+normalizing by 8.52727
+Writing image end1/000060.png
+max motion: 8.5273  motion range: u = -3.211 .. 6.665;  v = 0.688 .. 7.899
+normalizing by 9.66055
+Writing image end1/000061.png
+max motion: 9.6605  motion range: u = -3.064 .. 9.646;  v = -0.863 .. 8.096
+normalizing by 9.9889
+Writing image end1/000062.png
+max motion: 9.9889  motion range: u = -3.154 .. 9.047;  v = 0.425 .. 7.801
+normalizing by 8.87086
+Writing image end1/000063.png
+max motion: 8.8709  motion range: u = -3.070 .. 8.833;  v = 0.067 .. 7.593
+normalizing by 8.68092
+Writing image end1/000064.png
+max motion: 8.6809  motion range: u = -2.918 .. 7.773;  v = 0.761 .. 7.454
+normalizing by 8.29351
+Writing image end1/000065.png
+max motion: 8.2935  motion range: u = -3.029 .. 6.429;  v = 0.586 .. 7.721
+normalizing by 8.00231
+Writing image end1/000066.png
+max motion: 8.0023  motion range: u = -3.232 .. 7.469;  v = -0.772 .. 7.321
+normalizing by 8.94433
+Writing image end1/000067.png
+max motion: 8.9443  motion range: u = -3.052 .. 8.577;  v = 0.735 .. 7.694
+normalizing by 8.28566
+Writing image end1/000068.png
+max motion: 8.2857  motion range: u = -3.243 .. 7.456;  v = 0.414 .. 7.625
+normalizing by 7.78371
+Writing image end1/000069.png
+max motion: 7.7837  motion range: u = -2.672 .. 6.494;  v = 0.547 .. 7.311
+normalizing by 7.93127
+Writing image end1/000070.png
+max motion: 7.9313  motion range: u = -3.049 .. 6.072;  v = 0.547 .. 7.322
+normalizing by 8.03548
+Writing image end1/000071.png
+max motion: 8.0355  motion range: u = -3.207 .. 5.978;  v = 0.746 .. 7.368
+normalizing by 7.60601
+Writing image end1/000072.png
+max motion: 7.6060  motion range: u = -2.381 .. 7.474;  v = 0.251 .. 7.224
+normalizing by 7.63143
+Writing image end1/000073.png
+max motion: 7.6314  motion range: u = -2.904 .. 6.567;  v = 0.359 .. 7.057
+normalizing by 9.9096
+Writing image end1/000074.png
+max motion: 9.9096  motion range: u = -2.675 .. 9.906;  v = -0.496 .. 6.517
+normalizing by 7.64519
+Writing image end1/000075.png
+max motion: 7.6452  motion range: u = -2.604 .. 7.515;  v = 0.269 .. 6.228
+normalizing by 8.45692
+Writing image end1/000076.png
+max motion: 8.4569  motion range: u = -2.249 .. 8.346;  v = 0.398 .. 6.889
+normalizing by 9.24724
+Writing image end1/000077.png
+max motion: 9.2472  motion range: u = -2.713 .. 9.141;  v = 0.450 .. 6.851
+normalizing by 8.33469
+Writing image end1/000078.png
+max motion: 8.3347  motion range: u = -3.070 .. 8.166;  v = 0.558 .. 7.032
+normalizing by 7.9496
+Writing image end1/000079.png
+max motion: 7.9496  motion range: u = -3.335 .. 6.658;  v = 0.560 .. 7.216
+normalizing by 7.98198
+Writing image end1/000080.png
+max motion: 7.9820  motion range: u = -3.318 .. 6.803;  v = 0.615 .. 7.260
+normalizing by 8.13382
+Writing image end1/000081.png
+max motion: 8.1338  motion range: u = -3.543 .. 6.110;  v = 0.551 .. 7.321
+normalizing by 7.63037
+Writing image end1/000082.png
+max motion: 7.6304  motion range: u = -2.780 .. 3.273;  v = 0.717 .. 7.106
+normalizing by 7.40404
+Writing image end1/000083.png
+max motion: 7.4040  motion range: u = -3.001 .. 5.623;  v = 0.758 .. 6.768
+normalizing by 7.92709
+Writing image end1/000084.png
+max motion: 7.9271  motion range: u = -3.063 .. 5.308;  v = 0.392 .. 7.311
+normalizing by 7.97425
+Writing image end1/000085.png
+max motion: 7.9743  motion range: u = -3.162 .. 4.591;  v = 0.482 .. 7.321
+normalizing by 7.53401
+Writing image end1/000086.png
+max motion: 7.5340  motion range: u = -3.031 .. 6.256;  v = 0.642 .. 6.898
+normalizing by 8.23767
+Writing image end1/000087.png
+max motion: 8.2377  motion range: u = -3.194 .. 7.974;  v = 0.687 .. 7.435
+normalizing by 7.90303
+Writing image end1/000088.png
+max motion: 7.9030  motion range: u = -2.453 .. 7.462;  v = 0.542 .. 7.209
+normalizing by 8.82911
+Writing image end1/000089.png
+max motion: 8.8291  motion range: u = -3.753 .. 8.706;  v = 0.546 .. 6.998
+normalizing by 10.2656
+Writing image end1/000090.png
+max motion: 10.2656  motion range: u = -2.798 .. 10.012;  v = 0.506 .. 7.056
+normalizing by 7.45734
+Writing image end1/000091.png
+max motion: 7.4573  motion range: u = -2.664 .. 6.391;  v = 0.658 .. 7.098
+normalizing by 8.20822
+Writing image end1/000092.png
+max motion: 8.2082  motion range: u = -3.273 .. 7.362;  v = 0.590 .. 6.571
+normalizing by 7.96573
+Writing image end1/000093.png
+max motion: 7.9657  motion range: u = -2.629 .. 7.677;  v = 0.545 .. 6.519
+normalizing by 7.84128
+Writing image end1/000094.png
+max motion: 7.8413  motion range: u = -3.721 .. 5.755;  v = 0.531 .. 6.902
+normalizing by 6.87264
+Writing image end1/000095.png
+max motion: 6.8726  motion range: u = -2.971 .. 4.125;  v = 0.431 .. 6.198
+normalizing by 7.06889
+Writing image end1/000096.png
+max motion: 7.0689  motion range: u = -2.748 .. 5.653;  v = 0.429 .. 6.513
+normalizing by 6.90865
+Writing image end1/000097.png
+max motion: 6.9086  motion range: u = -2.597 .. 6.656;  v = 0.402 .. 6.590
+normalizing by 6.85053
+Writing image end1/000098.png
+max motion: 6.8505  motion range: u = -2.592 .. 5.322;  v = 0.496 .. 6.367
+normalizing by 8.48982
+Writing image end1/000099.png
+max motion: 8.4898  motion range: u = -3.013 .. 8.472;  v = -0.226 .. 6.231
+normalizing by 7.97956
+Writing image end1/000100.png
+max motion: 7.9796  motion range: u = -2.813 .. 7.731;  v = 0.361 .. 6.625
+normalizing by 8.31783
+Writing image end1/000101.png
+max motion: 8.3178  motion range: u = -2.485 .. 8.194;  v = 0.501 .. 6.151
+normalizing by 9.17494
+Writing image end1/000102.png
+max motion: 9.1749  motion range: u = -2.934 .. 9.153;  v = 0.398 .. 6.612
+normalizing by 8.66928
+Writing image end1/000103.png
+max motion: 8.6693  motion range: u = -2.911 .. 8.609;  v = 0.518 .. 6.159
+normalizing by 8.77191
+Writing image end1/000104.png
+max motion: 8.7719  motion range: u = -2.967 .. 8.703;  v = 0.002 .. 6.515
+normalizing by 8.73436
+Writing image end1/000105.png
+max motion: 8.7344  motion range: u = -2.685 .. 8.706;  v = -0.700 .. 6.261
+normalizing by 7.92565
+Writing image end1/000106.png
+max motion: 7.9256  motion range: u = -2.788 .. 7.735;  v = 0.520 .. 6.328
+normalizing by 7.68488
+Writing image end1/000107.png
+max motion: 7.6849  motion range: u = -3.329 .. 5.778;  v = 0.381 .. 6.926
+normalizing by 6.80506
+Writing image end1/000108.png
+max motion: 6.8051  motion range: u = -3.080 .. 6.741;  v = 0.314 .. 6.220
+normalizing by 7.26106
+Writing image end1/000109.png
+max motion: 7.2611  motion range: u = -2.997 .. 4.878;  v = 0.519 .. 6.614
+normalizing by 6.89843
+Writing image end1/000110.png
+max motion: 6.8984  motion range: u = -3.357 .. 5.948;  v = 0.097 .. 6.026
+normalizing by 9.34442
+Writing image end1/000111.png
+max motion: 9.3444  motion range: u = -3.366 .. 9.216;  v = -1.598 .. 6.259
+normalizing by 8.29024
+Writing image end1/000112.png
+max motion: 8.2902  motion range: u = -3.205 .. 8.288;  v = -0.188 .. 6.328
+normalizing by 7.11027
+Writing image end1/000113.png
+max motion: 7.1103  motion range: u = -2.573 .. 6.917;  v = 0.274 .. 6.120
+normalizing by 11.7077
+Writing image end1/000114.png
+max motion: 11.7077  motion range: u = -2.656 .. 11.694;  v = 0.055 .. 6.166
+normalizing by 7.90244
+Writing image end1/000115.png
+max motion: 7.9024  motion range: u = -2.685 .. 7.734;  v = -1.665 .. 6.134
+normalizing by 10.2618
+Writing image end1/000116.png
+max motion: 10.2618  motion range: u = -2.160 .. 10.239;  v = -2.298 .. 5.993
+normalizing by 6.60503
+Writing image end1/000117.png
+max motion: 6.6050  motion range: u = -2.619 .. 6.080;  v = 0.216 .. 6.063
+normalizing by 10.5233
+Writing image end1/000118.png
+max motion: 10.5233  motion range: u = -3.166 .. 10.338;  v = -1.119 .. 6.136
+normalizing by 8.10194
+Writing image end1/000119.png
+max motion: 8.1019  motion range: u = -2.676 .. 7.982;  v = 0.147 .. 6.320
+normalizing by 10.8127
+Writing image end1/000120.png
+max motion: 10.8127  motion range: u = -2.333 .. 10.813;  v = -0.789 .. 6.155
+normalizing by 8.64273
+Writing image end1/000121.png
+max motion: 8.6427  motion range: u = -2.889 .. 8.641;  v = -0.646 .. 6.008
+normalizing by 8.20579
+Writing image end1/000122.png
+max motion: 8.2058  motion range: u = -2.908 .. 8.179;  v = -0.002 .. 6.162
+normalizing by 8.92491
+Writing image end1/000123.png
+max motion: 8.9249  motion range: u = -2.773 .. 8.860;  v = -0.624 .. 6.856
+normalizing by 9.89656
+Writing image end1/000124.png
+max motion: 9.8966  motion range: u = -2.958 .. 9.848;  v = -0.981 .. 6.348
+normalizing by 8.33207
+Writing image end1/000125.png
+max motion: 8.3321  motion range: u = -3.052 .. 7.875;  v = 0.376 .. 6.278
+normalizing by 9.01621
+Writing image end1/000126.png
+max motion: 9.0162  motion range: u = -3.257 .. 8.039;  v = 0.282 .. 6.345
+normalizing by 9.54166
+Writing image end1/000127.png
+max motion: 9.5417  motion range: u = -2.934 .. 9.185;  v = -0.442 .. 5.887
+normalizing by 10.4189
+Writing image end1/000128.png
+max motion: 10.4189  motion range: u = -2.608 .. 10.043;  v = 0.280 .. 5.961
+normalizing by 9.38104
+Writing image end1/000129.png
+max motion: 9.3810  motion range: u = -2.346 .. 8.513;  v = 0.438 .. 6.132
+normalizing by 10.3575
+Writing image end1/000130.png
+max motion: 10.3575  motion range: u = -6.537 .. 8.492;  v = -0.703 .. 8.034
+normalizing by 51.3229
+Writing image end1/000131.png
+max motion: 51.3229  motion range: u = -50.891 .. -21.389;  v = -12.134 .. 25.379
+normalizing by 120.265
+Writing image end1/000132.png
+max motion: 120.2645  motion range: u = -119.086 .. -54.646;  v = -33.647 .. 50.089
+normalizing by 129.622
+Writing image end1/000133.png
+max motion: 129.6225  motion range: u = -128.340 .. -58.559;  v = -36.791 .. 53.350
+normalizing by 82.9998
+Writing image end1/000134.png
+max motion: 82.9998  motion range: u = -82.179 .. -38.038;  v = -23.506 .. 38.014
+normalizing by 37.9003
+Writing image end1/000135.png
+max motion: 37.9003  motion range: u = -37.515 .. -16.588;  v = -9.068 .. 20.393
+normalizing by 17.9069
+Writing image end1/000136.png
+max motion: 17.9069  motion range: u = -15.051 .. -2.120;  v = -2.932 .. 12.334
+normalizing by 10.0198
+Writing image end1/000137.png
+max motion: 10.0198  motion range: u = -6.465 .. 3.466;  v = -1.350 .. 7.655
+normalizing by 8.06562
+Writing image end1/000138.png
+max motion: 8.0656  motion range: u = -3.321 .. 7.098;  v = -0.098 .. 7.350
+normalizing by 8.24609
+Writing image end1/000139.png
+max motion: 8.2461  motion range: u = -2.894 .. 6.767;  v = 0.044 .. 7.539
+normalizing by 7.50787
+Writing image end1/000140.png
+max motion: 7.5079  motion range: u = -3.343 .. 7.052;  v = -0.428 .. 6.529
+normalizing by 7.6611
+Writing image end1/000141.png
+max motion: 7.6611  motion range: u = -3.268 .. 7.636;  v = -2.468 .. 6.109
+normalizing by 7.75223
+Writing image end1/000142.png
+max motion: 7.7522  motion range: u = -3.293 .. 7.689;  v = -0.032 .. 7.018
+normalizing by 8.10813
+Writing image end1/000143.png
+max motion: 8.1081  motion range: u = -2.692 .. 7.458;  v = -1.061 .. 6.349
+normalizing by 7.6173
+Writing image end1/000144.png
+max motion: 7.6173  motion range: u = -2.059 .. 6.276;  v = 0.318 .. 6.361
+normalizing by 7.76807
+Writing image end1/000145.png
+max motion: 7.7681  motion range: u = -2.209 .. 6.591;  v = 0.547 .. 6.330
+normalizing by 8.55835
+Writing image end1/000146.png
+max motion: 8.5584  motion range: u = -2.571 .. 7.130;  v = -0.140 .. 6.453
+normalizing by 9.7446
+Writing image end1/000147.png
+max motion: 9.7446  motion range: u = -2.602 .. 8.345;  v = -1.439 .. 7.015
+normalizing by 9.29449
+Writing image end1/000148.png
+max motion: 9.2945  motion range: u = -2.723 .. 7.892;  v = 0.177 .. 6.748
+normalizing by 8.69168
+Writing image end1/000149.png
+max motion: 8.6917  motion range: u = -2.905 .. 8.154;  v = -0.081 .. 6.936
+normalizing by 9.95667
+Writing image end1/000150.png
+max motion: 9.9567  motion range: u = -2.327 .. 9.721;  v = 0.241 .. 6.529
+normalizing by 11.9932
+Writing image end1/000151.png
+max motion: 11.9932  motion range: u = -2.266 .. 11.667;  v = 0.554 .. 6.257
+normalizing by 14.3291
+Writing image end1/000152.png
+max motion: 14.3291  motion range: u = -10.750 .. 2.896;  v = -0.865 .. 9.962
+normalizing by 68.6603
+Writing image end1/000153.png
+max motion: 68.6603  motion range: u = -68.160 .. -28.895;  v = -20.504 .. 33.317
+normalizing by 148.065
+Writing image end1/000154.png
+max motion: 148.0654  motion range: u = -145.725 .. -69.742;  v = -45.007 .. 60.599
+normalizing by 202.91
+Writing image end1/000155.png
+max motion: 202.9098  motion range: u = -199.313 .. 4.601;  v = -48.350 .. 71.958
+normalizing by 112.904
+Writing image end1/000156.png
+max motion: 112.9044  motion range: u = -110.871 .. -51.229;  v = -33.207 .. 47.928
+normalizing by 55.0406
+Writing image end1/000157.png
+max motion: 55.0406  motion range: u = -54.517 .. -25.140;  v = -14.973 .. 25.624
+normalizing by 21.1937
+Writing image end1/000158.png
+max motion: 21.1937  motion range: u = -20.816 .. -6.128;  v = -4.562 .. 12.983
+normalizing by 10.5486
+Writing image end1/000159.png
+max motion: 10.5486  motion range: u = -7.605 .. 2.050;  v = -1.303 .. 7.310
+normalizing by 7.78842
+Writing image end1/000160.png
+max motion: 7.7884  motion range: u = -4.675 .. 6.148;  v = -2.469 .. 6.229
+normalizing by 6.88081
+Writing image end1/000161.png
+max motion: 6.8808  motion range: u = -3.426 .. 6.316;  v = -1.824 .. 5.437
+normalizing by 7.38212
+Writing image end1/000162.png
+max motion: 7.3821  motion range: u = -2.834 .. 7.339;  v = -0.794 .. 6.278
+normalizing by 6.93442
+Writing image end1/000163.png
+max motion: 6.9344  motion range: u = -4.935 .. 6.282;  v = -0.023 .. 5.805
+normalizing by 6.8576
+Writing image end1/000164.png
+max motion: 6.8576  motion range: u = -2.899 .. 6.330;  v = -1.576 .. 5.750
+normalizing by 6.36015
+Writing image end1/000165.png
+max motion: 6.3602  motion range: u = -2.613 .. 5.735;  v = 0.382 .. 5.834
+normalizing by 6.85718
+Writing image end1/000166.png
+max motion: 6.8572  motion range: u = -2.859 .. 6.151;  v = 0.159 .. 5.834
+normalizing by 6.79996
+Writing image end1/000167.png
+max motion: 6.8000  motion range: u = -2.652 .. 6.466;  v = -0.042 .. 5.934
+normalizing by 6.37165
+Writing image end1/000168.png
+max motion: 6.3716  motion range: u = -2.201 .. 5.813;  v = 0.413 .. 5.979
+normalizing by 6.23412
+Writing image end1/000169.png
+max motion: 6.2341  motion range: u = -2.367 .. 4.839;  v = 0.537 .. 5.859
+normalizing by 7.34374
+Writing image end1/000170.png
+max motion: 7.3437  motion range: u = -3.664 .. 5.291;  v = -0.657 .. 6.552
+normalizing by 6.74073
+Writing image end1/000171.png
+max motion: 6.7407  motion range: u = -2.318 .. 5.943;  v = -1.518 .. 6.338
+normalizing by 6.97664
+Writing image end1/000172.png
+max motion: 6.9766  motion range: u = -2.901 .. 6.660;  v = 0.324 .. 6.345
+normalizing by 7.43326
+Writing image end1/000173.png
+max motion: 7.4333  motion range: u = -3.112 .. 4.757;  v = 0.121 .. 6.750
+normalizing by 9.58663
+Writing image end1/000174.png
+max motion: 9.5866  motion range: u = -2.527 .. 6.291;  v = -0.446 .. 9.574
+normalizing by 8.18654
+Writing image end1/000175.png
+max motion: 8.1865  motion range: u = -2.573 .. 7.521;  v = 0.457 .. 8.186
+normalizing by 6.42545
+Writing image end1/000176.png
+max motion: 6.4254  motion range: u = -2.698 .. 5.057;  v = 0.500 .. 5.832
+normalizing by 6.6362
+Writing image end1/000177.png
+max motion: 6.6362  motion range: u = -2.877 .. 5.844;  v = 0.334 .. 5.980
+normalizing by 6.34802
+Writing image end1/000178.png
+max motion: 6.3480  motion range: u = -2.740 .. 4.792;  v = 0.436 .. 5.726
+normalizing by 7.38104
+Writing image end1/000179.png
+max motion: 7.3810  motion range: u = -3.382 .. 4.918;  v = -0.658 .. 6.561
+normalizing by 6.49037
+Writing image end1/000180.png
+max motion: 6.4904  motion range: u = -2.946 .. 4.739;  v = -0.707 .. 5.783
+normalizing by 6.83569
+Writing image end1/000181.png
+max motion: 6.8357  motion range: u = -2.990 .. 4.149;  v = 0.515 .. 6.147
+normalizing by 6.70488
+Writing image end1/000182.png
+max motion: 6.7049  motion range: u = -2.871 .. 4.062;  v = 0.592 .. 6.059
+normalizing by 8.6492
+Writing image end1/000183.png
+max motion: 8.6492  motion range: u = -4.799 .. 2.052;  v = -0.164 .. 7.196
+normalizing by 37.1543
+Writing image end1/000184.png
+max motion: 37.1543  motion range: u = -36.676 .. -15.521;  v = -8.512 .. 20.933
+normalizing by 115.652
+Writing image end1/000185.png
+max motion: 115.6515  motion range: u = -114.744 .. -51.589;  v = -33.761 .. 49.032
+normalizing by 149.081
+Writing image end1/000186.png
+max motion: 149.0809  motion range: u = -147.919 .. -68.667;  v = -45.589 .. 63.877
+normalizing by 151.083
+Writing image end1/000187.png
+max motion: 151.0833  motion range: u = -147.468 .. -52.588;  v = -35.405 .. 51.229
+normalizing by 60.5301
+Writing image end1/000188.png
+max motion: 60.5301  motion range: u = -59.636 .. -28.137;  v = -17.822 .. 29.249
+normalizing by 25.7526
+Writing image end1/000189.png
+max motion: 25.7526  motion range: u = -25.433 .. -10.366;  v = -5.213 .. 15.286
+normalizing by 12.3796
+Writing image end1/000190.png
+max motion: 12.3796  motion range: u = -9.288 .. -0.818;  v = -1.118 .. 8.876
+normalizing by 7.75387
+Writing image end1/000191.png
+max motion: 7.7539  motion range: u = -4.652 .. 0.926;  v = -0.312 .. 6.203
+normalizing by 6.60747
+Writing image end1/000192.png
+max motion: 6.6075  motion range: u = -3.227 .. 2.207;  v = -0.326 .. 5.766
+normalizing by 6.40169
+Writing image end1/000193.png
+max motion: 6.4017  motion range: u = -2.937 .. 3.570;  v = -0.173 .. 5.688
+normalizing by 6.13763
+Writing image end1/000194.png
+max motion: 6.1376  motion range: u = -2.898 .. 3.030;  v = 0.161 .. 5.411
+normalizing by 5.99823
+Writing image end1/000195.png
+max motion: 5.9982  motion range: u = -2.666 .. 2.567;  v = -0.128 .. 5.373
+normalizing by 5.60782
+Writing image end1/000196.png
+max motion: 5.6078  motion range: u = -2.372 .. 3.935;  v = 0.050 .. 5.082
+normalizing by 6.03764
+Writing image end1/000197.png
+max motion: 6.0376  motion range: u = -3.161 .. 2.325;  v = 0.248 .. 5.397
+normalizing by 5.90275
+Writing image end1/000198.png
+max motion: 5.9028  motion range: u = -2.263 .. 2.990;  v = 0.291 .. 5.527
+normalizing by 5.74722
+Writing image end1/000199.png
+max motion: 5.7472  motion range: u = -2.741 .. 2.866;  v = 0.417 .. 5.051
+normalizing by 6.10611
+Writing image end1/000200.png
+max motion: 6.1061  motion range: u = -2.187 .. 3.359;  v = 0.547 .. 5.703
+normalizing by 6.20302
+Writing image end1/000201.png
+max motion: 6.2030  motion range: u = -2.677 .. 2.807;  v = 0.476 .. 5.595
+normalizing by 6.42245
+Writing image end1/000202.png
+max motion: 6.4225  motion range: u = -2.671 .. 3.343;  v = 0.318 .. 5.840
+normalizing by 5.50813
+Writing image end1/000203.png
+max motion: 5.5081  motion range: u = -2.296 .. 2.960;  v = 0.232 .. 5.091
+normalizing by 5.9788
+Writing image end1/000204.png
+max motion: 5.9788  motion range: u = -2.275 .. 3.647;  v = -0.004 .. 5.582
+normalizing by 6.15503
+Writing image end1/000205.png
+max motion: 6.1550  motion range: u = -2.384 .. 3.115;  v = 0.164 .. 5.675
+normalizing by 6.54501
+Writing image end1/000206.png
+max motion: 6.5450  motion range: u = -2.631 .. 3.824;  v = -0.034 .. 5.993
+normalizing by 6.29889
+Writing image end1/000207.png
+max motion: 6.2989  motion range: u = -2.373 .. 4.421;  v = -1.005 .. 5.843
+normalizing by 5.89664
+Writing image end1/000208.png
+max motion: 5.8966  motion range: u = -2.296 .. 3.861;  v = -0.317 .. 5.431
+normalizing by 6.43526
+Writing image end1/000209.png
+max motion: 6.4353  motion range: u = -2.662 .. 3.619;  v = 0.205 .. 5.859
+normalizing by 6.15312
+Writing image end1/000210.png
+max motion: 6.1531  motion range: u = -2.793 .. 4.800;  v = -0.642 .. 5.482
+normalizing by 6.98828
+Writing image end1/000211.png
+max motion: 6.9883  motion range: u = -3.532 .. 5.471;  v = -0.317 .. 6.030
+normalizing by 6.16351
+Writing image end1/000212.png
+max motion: 6.1635  motion range: u = -2.494 .. 6.120;  v = -0.908 .. 5.129
+normalizing by 6.42794
+Writing image end1/000213.png
+max motion: 6.4279  motion range: u = -2.507 .. 5.150;  v = -0.964 .. 6.044
+normalizing by 6.40318
+Writing image end1/000214.png
+max motion: 6.4032  motion range: u = -2.662 .. 4.949;  v = 0.327 .. 5.888
+normalizing by 6.34772
+Writing image end1/000215.png
+max motion: 6.3477  motion range: u = -2.730 .. 4.061;  v = 0.213 .. 5.731
+normalizing by 5.9755
+Writing image end1/000216.png
+max motion: 5.9755  motion range: u = -2.680 .. 3.922;  v = -0.143 .. 5.341
+normalizing by 5.68187
+Writing image end1/000217.png
+max motion: 5.6819  motion range: u = -3.060 .. 3.756;  v = 0.327 .. 4.912
+normalizing by 6.11564
+Writing image end1/000218.png
+max motion: 6.1156  motion range: u = -2.424 .. 2.914;  v = 0.377 .. 5.615
+normalizing by 6.5021
+Writing image end1/000219.png
+max motion: 6.5021  motion range: u = -2.718 .. 3.241;  v = 0.431 .. 5.907
+normalizing by 5.98594
+Writing image end1/000220.png
+max motion: 5.9859  motion range: u = -2.621 .. 3.636;  v = 0.169 .. 5.382
+normalizing by 5.86437
+Writing image end1/000221.png
+max motion: 5.8644  motion range: u = -2.511 .. 3.501;  v = -0.309 .. 5.299
+normalizing by 5.8121
+Writing image end1/000222.png
+max motion: 5.8121  motion range: u = -2.671 .. 3.519;  v = -0.058 .. 5.162
+normalizing by 5.36465
+Writing image end1/000223.png
+max motion: 5.3647  motion range: u = -1.991 .. 3.887;  v = -0.669 .. 4.981
+normalizing by 5.74077
+Writing image end1/000224.png
+max motion: 5.7408  motion range: u = -2.542 .. 4.687;  v = -1.816 .. 5.147
+normalizing by 6.84644
+Writing image end1/000225.png
+max motion: 6.8464  motion range: u = -2.332 .. 6.631;  v = -1.706 .. 5.135
+normalizing by 5.60593
+Writing image end1/000226.png
+max motion: 5.6059  motion range: u = -2.283 .. 3.738;  v = -0.735 .. 5.120
+normalizing by 6.07531
+Writing image end1/000227.png
+max motion: 6.0753  motion range: u = -2.602 .. 3.924;  v = 0.191 .. 5.490
+normalizing by 5.81214
+Writing image end1/000228.png
+max motion: 5.8121  motion range: u = -2.013 .. 4.742;  v = -0.207 .. 5.453
+normalizing by 5.55909
+Writing image end1/000229.png
+max motion: 5.5591  motion range: u = -2.366 .. 4.766;  v = -1.060 .. 5.031
+normalizing by 5.75964
+Writing image end1/000230.png
+max motion: 5.7596  motion range: u = -2.021 .. 5.169;  v = -0.969 .. 5.393
+normalizing by 5.7305
+Writing image end1/000231.png
+max motion: 5.7305  motion range: u = -1.908 .. 4.218;  v = -0.783 .. 5.403
+normalizing by 5.85795
+Writing image end1/000232.png
+max motion: 5.8579  motion range: u = -2.150 .. 4.939;  v = -1.083 .. 5.449
+normalizing by 5.62306
+Writing image end1/000233.png
+max motion: 5.6231  motion range: u = -1.851 .. 4.136;  v = -0.207 .. 5.411
+normalizing by 5.52553
+Writing image end1/000234.png
+max motion: 5.5255  motion range: u = -1.914 .. 4.061;  v = -0.430 .. 5.183
+normalizing by 5.67131
+Writing image end1/000235.png
+max motion: 5.6713  motion range: u = -1.668 .. 3.485;  v = 0.262 .. 5.523
+normalizing by 5.72218
+Writing image end1/000236.png
+max motion: 5.7222  motion range: u = -1.606 .. 3.657;  v = -0.468 .. 5.496
+normalizing by 5.86256
+Writing image end1/000237.png
+max motion: 5.8626  motion range: u = -2.364 .. 3.996;  v = -0.494 .. 5.365
+normalizing by 5.84721
+Writing image end1/000238.png
+max motion: 5.8472  motion range: u = -1.782 .. 4.595;  v = -1.421 .. 5.569
+normalizing by 5.79171
+Writing image end1/000239.png
+max motion: 5.7917  motion range: u = -2.115 .. 4.765;  v = -2.161 .. 5.392
+normalizing by 5.77932
+Writing image end1/000240.png
+max motion: 5.7793  motion range: u = -1.464 .. 5.029;  v = -1.942 .. 5.621
+normalizing by 5.51835
+Writing image end1/000241.png
+max motion: 5.5184  motion range: u = -1.755 .. 4.462;  v = -2.266 .. 5.232
+normalizing by 5.15282
+Writing image end1/000242.png
+max motion: 5.1528  motion range: u = -1.267 .. 4.675;  v = -0.682 .. 5.011
+normalizing by 5.51938
+Writing image end1/000243.png
+max motion: 5.5194  motion range: u = -1.134 .. 5.465;  v = -0.771 .. 5.089
+normalizing by 6.1065
+Writing image end1/000244.png
+max motion: 6.1065  motion range: u = -1.501 .. 5.906;  v = -1.909 .. 5.263
+normalizing by 6.58648
+Writing image end1/000245.png
+max motion: 6.5865  motion range: u = -1.162 .. 6.555;  v = -1.323 .. 5.255
+normalizing by 5.41407
+Writing image end1/000246.png
+max motion: 5.4141  motion range: u = -1.607 .. 4.654;  v = -1.334 .. 5.170
+normalizing by 5.96021
+Writing image end1/000247.png
+max motion: 5.9602  motion range: u = -1.524 .. 5.889;  v = -1.948 .. 4.960
+normalizing by 5.37411
+Writing image end1/000248.png
+max motion: 5.3741  motion range: u = -1.012 .. 5.373;  v = -0.449 .. 5.089
+normalizing by 5.19134
+Writing image end1/000249.png
+max motion: 5.1913  motion range: u = -1.112 .. 4.943;  v = -0.855 .. 5.109
+normalizing by 5.10343
+Writing image end1/000250.png
+max motion: 5.1034  motion range: u = -1.111 .. 4.156;  v = -0.018 .. 4.981
+normalizing by 6.80726
+Writing image end1/000251.png
+max motion: 6.8073  motion range: u = -3.552 .. 2.704;  v = -0.811 .. 6.087
+normalizing by 49.6341
+Writing image end1/000252.png
+max motion: 49.6341  motion range: u = -49.003 .. -18.389;  v = -13.835 .. 23.296
+normalizing by 176.067
+Writing image end1/000253.png
+max motion: 176.0666  motion range: u = -172.505 .. -33.040;  v = -46.165 .. 60.519
+normalizing by 225.306
+Writing image end1/000254.png
+max motion: 225.3057  motion range: u = -178.904 .. 130.360;  v = -120.358 .. 169.833
+normalizing by 307.3
+Writing image end1/000255.png
+max motion: 307.2999  motion range: u = -238.494 .. 156.914;  v = -57.040 .. 194.104
+normalizing by 121.033
+Writing image end1/000256.png
+max motion: 121.0326  motion range: u = -120.471 .. 0.547;  v = -32.584 .. 52.178
+normalizing by 44.7459
+Writing image end1/000257.png
+max motion: 44.7459  motion range: u = -44.306 .. -21.143;  v = -12.009 .. 22.753
+normalizing by 18.2607
+Writing image end1/000258.png
+max motion: 18.2607  motion range: u = -15.961 .. -5.254;  v = -1.981 .. 12.648
+normalizing by 9.78914
+Writing image end1/000259.png
+max motion: 9.7891  motion range: u = -6.116 .. 2.159;  v = -1.144 .. 7.643
+normalizing by 7.72121
+Writing image end1/000260.png
+max motion: 7.7212  motion range: u = -3.528 .. 3.880;  v = -1.667 .. 6.868
+normalizing by 6.95157
+Writing image end1/000261.png
+max motion: 6.9516  motion range: u = -2.373 .. 5.158;  v = -1.584 .. 6.534
+normalizing by 6.54992
+Writing image end1/000262.png
+max motion: 6.5499  motion range: u = -2.145 .. 4.791;  v = -2.123 .. 6.189
+normalizing by 6.61298
+Writing image end1/000263.png
+max motion: 6.6130  motion range: u = -1.863 .. 5.250;  v = -1.634 .. 6.378
+normalizing by 5.73175
+Writing image end1/000264.png
+max motion: 5.7318  motion range: u = -1.417 .. 4.776;  v = -1.167 .. 5.569
+normalizing by 6.16954
+Writing image end1/000265.png
+max motion: 6.1695  motion range: u = -1.639 .. 5.164;  v = -0.866 .. 5.948
+normalizing by 5.97513
+Writing image end1/000266.png
+max motion: 5.9751  motion range: u = -1.060 .. 4.500;  v = -2.077 .. 5.905
+normalizing by 6.00917
+Writing image end1/000267.png
+max motion: 6.0092  motion range: u = -1.536 .. 4.439;  v = -2.012 .. 5.426
+normalizing by 5.86798
+Writing image end1/000268.png
+max motion: 5.8680  motion range: u = -1.607 .. 4.015;  v = -1.416 .. 5.644
+normalizing by 6.05567
+Writing image end1/000269.png
+max motion: 6.0557  motion range: u = -1.199 .. 4.513;  v = -2.738 .. 5.410
+normalizing by 6.16548
+Writing image end1/000270.png
+max motion: 6.1655  motion range: u = -1.137 .. 4.815;  v = -1.442 .. 5.650
+normalizing by 5.59956
+Writing image end1/000271.png
+max motion: 5.5996  motion range: u = -1.624 .. 3.609;  v = -0.565 .. 5.233
+normalizing by 5.92855
+Writing image end1/000272.png
+max motion: 5.9285  motion range: u = -1.399 .. 3.948;  v = -0.265 .. 5.494
+normalizing by 5.95456
+Writing image end1/000273.png
+max motion: 5.9546  motion range: u = -1.460 .. 4.295;  v = -0.434 .. 5.327
+normalizing by 5.68942
+Writing image end1/000274.png
+max motion: 5.6894  motion range: u = -1.875 .. 4.150;  v = -0.255 .. 5.372
+normalizing by 5.67463
+Writing image end1/000275.png
+max motion: 5.6746  motion range: u = -1.723 .. 4.344;  v = -0.086 .. 5.288
+normalizing by 5.33229
+Writing image end1/000276.png
+max motion: 5.3323  motion range: u = -1.240 .. 2.518;  v = 0.590 .. 4.952
+normalizing by 5.65571
+Writing image end1/000277.png
+max motion: 5.6557  motion range: u = -1.433 .. 2.372;  v = 0.472 .. 5.172
+normalizing by 5.62789
+Writing image end1/000278.png
+max motion: 5.6279  motion range: u = -1.342 .. 2.461;  v = 0.434 .. 5.153
+normalizing by 5.19253
+Writing image end1/000279.png
+max motion: 5.1925  motion range: u = -1.168 .. 2.403;  v = 0.508 .. 4.741
+normalizing by 5.30361
+Writing image end1/000280.png
+max motion: 5.3036  motion range: u = -1.706 .. 2.201;  v = 0.409 .. 5.022
+normalizing by 23.1225
+Writing image end1/000281.png
+max motion: 23.1225  motion range: u = -22.741 .. -9.957;  v = -3.916 .. 14.690
+normalizing by 103.661
+Writing image end1/000282.png
+max motion: 103.6608  motion range: u = -102.280 .. 1.354;  v = -31.487 .. 44.271
+normalizing by 235.616
+Writing image end1/000283.png
+max motion: 235.6165  motion range: u = -193.402 .. 61.163;  v = -60.809 .. 222.989
+normalizing by 224.61
+Writing image end1/000284.png
+max motion: 224.6100  motion range: u = -205.464 .. 82.016;  v = -70.396 .. 223.645
+normalizing by 209.966
+Writing image end1/000285.png
+max motion: 209.9659  motion range: u = -205.918 .. 71.424;  v = -58.329 .. 184.512
+normalizing by 110.865
+Writing image end1/000286.png
+max motion: 110.8647  motion range: u = -109.633 .. 28.364;  v = -32.330 .. 89.740
+normalizing by 43.9655
+Writing image end1/000287.png
+max motion: 43.9655  motion range: u = -43.510 .. -20.791;  v = -11.677 .. 22.600
+normalizing by 16.6451
+Writing image end1/000288.png
+max motion: 16.6451  motion range: u = -14.850 .. -5.825;  v = -1.972 .. 11.496
+normalizing by 8.84601
+Writing image end1/000289.png
+max motion: 8.8460  motion range: u = -5.565 .. -0.304;  v = -0.173 .. 6.876
+normalizing by 5.92324
+Writing image end1/000290.png
+max motion: 5.9232  motion range: u = -2.460 .. 1.999;  v = -0.111 .. 5.548
+normalizing by 5.71228
+Writing image end1/000291.png
+max motion: 5.7123  motion range: u = -2.267 .. 2.360;  v = -0.032 .. 5.243
+normalizing by 6.10086
+Writing image end1/000292.png
+max motion: 6.1009  motion range: u = -2.344 .. 2.762;  v = -0.172 .. 5.632
+normalizing by 6.1817
+Writing image end1/000293.png
+max motion: 6.1817  motion range: u = -2.190 .. 2.928;  v = 0.225 .. 5.781
+normalizing by 6.2253
+Writing image end1/000294.png
+max motion: 6.2253  motion range: u = -2.007 .. 3.067;  v = 0.439 .. 5.724
+normalizing by 5.94348
+Writing image end1/000295.png
+max motion: 5.9435  motion range: u = -1.764 .. 2.934;  v = 0.330 .. 5.263
+normalizing by 6.22478
+Writing image end1/000296.png
+max motion: 6.2248  motion range: u = -1.936 .. 2.872;  v = 0.197 .. 5.671
+normalizing by 6.095
+Writing image end1/000297.png
+max motion: 6.0950  motion range: u = -3.104 .. 2.557;  v = 0.156 .. 5.245
