@@ -25,7 +25,7 @@ COW_MOTS consists of 7 video sequences depicting aerial thermal imagery of cattl
 
 The COW_MOTS dataset consists of 959 frames, 20.647 masks, and 239 tracks. Ground truth was labelled manually with the Computer Vision Annotation Tool [CVAT](https://github.com/openvinotoolkit/cvat), run in a docker container.
 
-The following images are examples of the seven datasets that comprise COW_MOTS. They illustrate data collected at different atmospheric conditions (temperature and sunlight) and angles of inclination:
+The following images are examples of the seven datasets that comprise COW_MOTS. They illustrate data collected at different atmospheric conditions (temperature and sunlight), heights, and angles of inclination:
 
 <img src="visualizations/0000.png" width="270"> <img src="visualizations/0001.png" width="270">
 <img src="visualizations/0002.png" width="270"> <img src="visualizations/0003.png" width="270">
