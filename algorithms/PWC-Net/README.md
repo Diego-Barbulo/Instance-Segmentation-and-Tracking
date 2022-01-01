@@ -8,15 +8,13 @@ Here, I provide the scripts and tutorials for generating optical flow images fro
 PWC-Net detects pixel motion between consecutive frames, so only the cows in movement are detected by the algorithm.
 
 ## PWC-Net
-I use a simpler reimplementation (https://github.com/sniklaus/pytorch-pwc) of the official repository (https://github.com/NVlabs/PWC-Net) that provides the same results.
+I use a [simpler reimplementation](https://github.com/sniklaus/pytorch-pwc) of the [official repository](https://github.com/NVlabs/PWC-Net) that provides the same results.
 
 ### Setup
 - Install [Anaconda](https://www.anaconda.com/products/individual)
 - Create an environment
     - `conda create --name myenv python=3.6.7`
     - `conda activate myenv`
-- Clone (or download as a zip file) this repository
-    - `git clone <link_to_my_repo>`
 - Navigate to pytorch-pwc directory and install the requirements
     - `cd MOTS/algorithms/PWC-Net/flow_files/pytorch-pwc`
     - `pip install -r requirements.txt`
@@ -35,7 +33,7 @@ The **flow_files_generator.py** script will produce a flow file from every pair 
 ### Setup
 - Create an environment in Anaconda
 - Clone (or download as a zip file) this repository
-    - `git clone <https://github.com/georgegach/flowiz.git>`
+    - `git clone https://github.com/georgegach/flowiz.git`
 - Install requirements
 
 ### Running the code
