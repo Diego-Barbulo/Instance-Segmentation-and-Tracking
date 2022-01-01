@@ -194,7 +194,7 @@ In order to get the counting results of the model on your dataset, run `eval.py`
 ## Optical Flow
 To use optical flow as a tracking mechanism, go to the the [PWC-Net folder](algorithms/PWC-Net) and follow the instructions described in the [README.md](algorithms/PWC-Net) file for generating optical flow images from a dataset and naming them according to the format required by TrackR-CNN. 
 
-After generating the optical flow imgages in the required format, change the following in the tuning procedure:
+After generating the optical flow imgages, change the following in the tuning procedure:
 - Point the `/path/to/precomputed_optical_flow` to the location where the optical flow images are stored. 
 - Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
 
