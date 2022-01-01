@@ -41,7 +41,7 @@ Here, I provide a tutorial for applying the TrackR-CNN algorithm for a Multi-Obj
 
 If you want to apply **PWC-Net** together with **Track R-CNN**, go to the [PWC-Net folder](algorithms/PWC-Net) for instructions.
 
-### Videos of results
+### Video of results
 
 ![](visualizations/cows.gif)
 
