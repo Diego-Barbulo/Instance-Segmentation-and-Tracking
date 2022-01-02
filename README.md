@@ -264,7 +264,7 @@ After generating the optical flow images, change the following in the tuning pro
 Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism.
 
 ### Using Optical flow as a tracking mechanism
-After generating the optical flow images and renaming the images according to the format required by Track R-CNN, change the following in the tuning procedure:
+After generating the optical flow images and renaming them according to the format required by Track R-CNN, change the following in the tuning procedure:
 - Point the `/path/to/precomputed_optical_flow` to the location where the optical flow images are stored. 
 - Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
 
