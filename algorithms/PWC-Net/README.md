@@ -86,7 +86,7 @@ GitHub - georgegach/flowiz: Converts Optical Flow files to images and optionally
 ```
 
 ## Contact
-If you have encounter problems when running the code or have any questions, please open an issue or contact diego.barbulobarrios@wur.nl. 
+If you encounter problems when running the code or have any questions, please open an issue or contact diego.barbulobarrios@wur.nl. 
 
 
 

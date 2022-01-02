@@ -217,4 +217,4 @@ If you use this code, please cite:
 ```
 
 ## Contact
-If you have encounter problems when running the code or have any questions, please open an issue or contact diego.barbulobarrios@wur.nl.
+If you encounter problems when running the code or have any questions, please open an issue or contact diego.barbulobarrios@wur.nl.
