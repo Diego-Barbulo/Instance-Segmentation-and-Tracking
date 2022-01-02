@@ -2,9 +2,7 @@
 This repository provides the code, images and annotations of the research "Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery".
 
 # Research
-In the [algorithms](algorithms/) folder, code and tutorials for applying **TrackR-CNN** and **PWC-Net** to Multi Object Tracking and Segmentation (MOTS) are provided. PWC-Net is tested as an alternative tracking method to the association head used in TrackR-CNN. 
-
-If you want to use **PWC-Net**, go to its [folder](algorithms/PWC-Net/) for instructions.
+In the [algorithms](algorithms/) folder, code for applying **TrackR-CNN** and **PWC-Net** to Multi Object Tracking and Segmentation (MOTS) is provided. PWC-Net is tested as an alternative tracking method to the association head used in TrackR-CNN. 
 
 The flowchart below illustrates the steps followed to conduct this research:
 
@@ -39,7 +37,7 @@ Images and annotations of **COW_MOTS** will be made publicly available soon.
 ## TrackR-CNN
 Here, I provide a tutorial for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
 
-If you want to apply **PWC-Net** together with **Track R-CNN**, go to the [PWC-Net folder](algorithms/PWC-Net) for instructions.
+If you want to apply **PWC-Net** together with **Track R-CNN**, instructions are provided at the end of this README.
 
 ### Video of results
 
@@ -194,7 +192,7 @@ To obtain all the metrics for your model on the testing dataset, run `eval.py` i
 In order to get the counting results of the model on your dataset, run `eval.py` and look at the **TR Trk** metric results (i.e., number of tracks predicted by the model). To test the model's counting efficiency, compare it with the ground truth tracks, which you can find under the metric **GT Trk**.
 
 ## Optical Flow
-To use optical flow as a tracking mechanism, follow the instructions below for generating optical flow images from the COW_MOTS dataset and naming them according to the format required by TrackR-CNN. 
+To use optical flow as a tracking mechanism, follow the instructions below for generating optical flow images from the COW_MOTS dataset and naming them according to the format required by TrackR-CNN.
 
 ### Video of results
 
@@ -264,6 +262,13 @@ After generating the optical flow images, change the following in the tuning pro
 - Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
 
 Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism.
+
+### Using Optical flow as a tracking mechanism
+After generating the optical flow images and renaming the images according to the format required by Track R-CNN, change the following in the tuning procedure:
+- Point the `/path/to/precomputed_optical_flow` to the location where the optical flow images are stored. 
+- Set `association type` either to **mask** or to **bbox_iou** so that optical flow is used as a tracking mechanism.
+
+Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism. 
 
 ## References
 The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN). The PWC-Net and flowiz code have been obtained from [PWC-Net](https://github.com/sniklaus/pytorch-pwc) and [flowiz](https://github.com/georgegach/flowiz).
