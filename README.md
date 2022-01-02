@@ -13,7 +13,7 @@ Configuration files for the models can be found in algorithms/TrackR-CNN. I use 
 
 ## Video of TrackR-CNN results
 
-![](visualizations/validation_dataset.gif)
+![](visualizations/cows.gif)
 
 ## Dataset
 
@@ -41,7 +41,7 @@ If you want to apply **PWC-Net** together with **Track R-CNN**, instructions are
 
 ### Video of results
 
-![](visualizations/cows.gif)
+![](visualizations/validation_dataset.gif)
 
 ### Installation and setup
 #### Hardware
@@ -271,16 +271,16 @@ After generating the optical flow images and renaming them according to the form
 Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism. 
 
 ## References
-The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN). The PWC-Net and flowiz code have been obtained from [PWC-Net](https://github.com/sniklaus/pytorch-pwc) and [flowiz](https://github.com/georgegach/flowiz).
+The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN). The PWC-Net and flowiz code have been obtained from [PWC-Net](https://github.com/sniklaus/pytorch-pwc) and [flowiz](https://github.com/georgegach/flowiz). Code for obtaining the minimum flow values has been obtained from the [Middlebury evaluation](https://vision.middlebury.edu/flow/submit/).
 
 ## Citation
 If you use this code, please cite:
 ```
-@inproceedings{Voigtlaender19CVPR_MOTS,
- author = {Paul Voigtlaender and Michael Krause and Aljosa Osep and Jonathon Luiten and Berin Balachandar Gnana Sekar and Andreas Geiger and Bastian Leibe},
- title = {{MOTS}: Multi-Object Tracking and Segmentation},
- booktitle = {CVPR},
- year = {2019},
+@misc{pytorch-pwc,
+author = {Simon Niklaus},
+title = {A Reimplementation of {PWC-Net} Using {PyTorch}},
+year = {2018},
+howpublished = {\url{https://github.com/sniklaus/pytorch-pwc}}
 }
 @inproceedings{Sun_CVPR_2018,
 author = {Deqing Sun and Xiaodong Yang and Ming-Yu Liu and Jan Kautz},
@@ -288,13 +288,14 @@ title = {{PWC-Net}: {CNNs} for Optical Flow Using Pyramid, Warping, and Cost Vol
 booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
 year = {2018}
 }
-@misc{pytorch-pwc,
-author = {Simon Niklaus},
-title = {A Reimplementation of {PWC-Net} Using {PyTorch}},
-year = {2018},
-howpublished = {\url{https://github.com/sniklaus/pytorch-pwc}}
+@inproceedings{Voigtlaender19CVPR_MOTS,
+ author = {Paul Voigtlaender and Michael Krause and Aljosa Osep and Jonathon Luiten and Berin Balachandar Gnana Sekar and Andreas Geiger and Bastian Leibe},
+ title = {{MOTS}: Multi-Object Tracking and Segmentation},
+ booktitle = {CVPR},
+ year = {2019},
 }
 GitHub - georgegach/flowiz: Converts Optical Flow files to images and optionally compiles them to a video. Flow viewer GUI is also available. Check out mockup right from Github Pages: https://github.com/georgegach/flowiz.
+vision.middlebury.edu/flow/submit. https://vision.middlebury.edu/flow/submit/.
 ```
 
 ## Contact
