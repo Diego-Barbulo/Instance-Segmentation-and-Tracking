@@ -9,7 +9,7 @@ The flowchart below illustrates the steps followed to conduct this research:
 ![](visualizations/Flowchart.png)
 
 # Models
-Configuration files for the models can be found in algorithms/TrackR-CNN. I use two temporal components (3D convolutions and LSTM convolutions), and two tracking mechanisms (optical flow and an association head).
+Configuration files for the models can be found in algorithms/TrackR-CNN. I test two temporal components (3D convolutions and LSTM convolutions), and two tracking mechanisms (optical flow and an association head).
 
 ## Video of TrackR-CNN results
 
@@ -271,7 +271,7 @@ After generating the optical flow images and renaming them according to the form
 Now, you can run the tuning procedure with optical flow, instead of the association head, as a tracking mechanism. 
 
 ## References
-The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN). The PWC-Net and flowiz code have been obtained from [PWC-Net](https://github.com/sniklaus/pytorch-pwc) and [flowiz](https://github.com/georgegach/flowiz). Code for obtaining the minimum flow values has been obtained from the [Middlebury evaluation](https://vision.middlebury.edu/flow/submit/).
+The TrackR-CNN code and parts of the README come from [TrackR-CNN](https://github.com/VisualComputingInstitute/TrackR-CNN). The PWC-Net and flowiz code have been obtained from [PWC-Net](https://github.com/sniklaus/pytorch-pwc) and [flowiz](https://github.com/georgegach/flowiz). Code for obtaining the minimum flow values comes from the [Middlebury evaluation](https://vision.middlebury.edu/flow/submit/).
 
 ## Citation
 If you use this code, please cite:
