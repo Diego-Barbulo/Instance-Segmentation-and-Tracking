@@ -66,7 +66,7 @@ High Performance Cluster specs:
 - Clone (or download as a zip file) this repository
     - `git clone https://git.wur.nl/diego.barbulobarrios/TrackR-CNN.git`
 - Navigate to the TrackR-CNN directory and install the requirements
-    - `cd MOTS/algorithms/TrackR-CNN`
+    - `cd algorithms/TrackR-CNN`
     - `pip install -r requirements.txt`
 #### Folder structure
 - Create the following folders in algorithms/TrackR-CNN:
@@ -107,7 +107,7 @@ models/
 main.py
 ```
 ### Training
-To train a model, navigate to `MOTS/algorithms/TrackR-CNN` and run `main.py` with the corresponding configuration file e.g., `python main.py configs/3dconv4` (`cd algorithms/TrackR-CNN`). If you are running the algorithm in Windows, you may get an error stating that the key **USER** has not been found among the environment variables. In this case, add it to the dictionary by writing `os.environ["USER"] = os.environ["USERNAME"]` at the beginning of the main() function in main.py
+To train a model, navigate to `algorithms/TrackR-CNN` and run `main.py` with the corresponding configuration file e.g., `python main.py configs/3dconv4` (`cd algorithms/TrackR-CNN`). If you are running the algorithm in Windows, you may get an error stating that the key **USER** has not been found among the environment variables. In this case, add it to the dictionary by writing `os.environ["USER"] = os.environ["USERNAME"]` at the beginning of the main() function in main.py
 
 #### Configuration files
 In the configuration files:
@@ -146,7 +146,7 @@ To train TrackR-CNN on a custom dataset:
     - Experimentally, find the optimal values for the batch size and the number of epochs.
     - Set `"input_size_train"` and `"input_size_val"` to your images' resolution.
 - Change the maximum number of detections:
-    - Navigate to `MOTS/algorithms/TrackR-CNN/datasets/KITTI/segtrack/KITTI_segtrack.py` and change the variable `N_MAX_DETECTIONS` the maximum number of detections (frame with highest number of targets) in your dataset. A higher value than the highest number would also work.
+    - Navigate to `algorithms/TrackR-CNN/datasets/KITTI/segtrack/KITTI_segtrack.py` and change the variable `N_MAX_DETECTIONS` the maximum number of detections (frame with highest number of targets) in your dataset. A higher value than the highest number would also work.
 
 
 ### Forwarding and tracking
@@ -173,7 +173,7 @@ To change the class assigned to the detections (e.g., cow), go to `TrackR-CNN/mo
 The tuning procedure is used to find the best tracking parameters for the model on a specific dataset. It relies on a random search approach on the training dataset, after which the best parameters are tested on the test dataset and the tracking metrics are calculated.
 
 Before running the tuning procedure, make sure to add both training and testing datasets to the **train** folder. In order to specify the training and testing sequences, follow this procedure:
-- Navigate to `MOTS/algorithms/TrackR-CNN/mots-tools/mots_eval/`
+- Navigate to `algorithms/TrackR-CNN/mots-tools/mots_eval/`
 - Add the sequences for training to **train.seqmap** and the sequences for testing to **val.seqmap** in the following format: 
     - `<seq_id> empty <start_frame> <end_frame>`
 
@@ -209,16 +209,16 @@ I use a [simpler reimplementation](https://github.com/sniklaus/pytorch-pwc) of t
     - `conda create --name myenv python=3.6.7`
     - `conda activate myenv`
 - Navigate to pytorch-pwc directory and install the requirements
-    - `cd MOTS/algorithms/PWC-Net/flow_files/pytorch-pwc`
+    - `cd algorithms/PWC-Net/flow_files/pytorch-pwc`
     - `pip install -r requirements.txt`
 
 #### Flow-files
 To get a flow file from every pair of adjacent images in your dataset, follow these steps:
 
-- Go to `MOTS/algorithms/PWC-Net/flow_files/pytorch-pwc/` and, in the **estimate()** function, insert your images' resolution values in **intWidth** and **intHeight**.
+- Go to `algorithms/PWC-Net/flow_files/pytorch-pwc/` and, in the **estimate()** function, insert your images' resolution values in **intWidth** and **intHeight**.
 - Store the dataset's images in the **images** folder.
     - Make sure to either name your images according to the format used for TrackR-CNN (e.g., 000000.png, 000001.png, etc.) or to change the code in the script to fit the format you are using.
-- Navigate to `MOTS/algorithms/PWC-Net/flow_files` and run the **flow_files_generator.py** script.
+- Navigate to `algorithms/PWC-Net/flow_files` and run the **flow_files_generator.py** script.
 
 The **flow_files_generator.py** script will produce a flow file from every pair of consecutive images and write it to the **out** folder.
 
@@ -232,7 +232,7 @@ The **flow_files_generator.py** script will produce a flow file from every pair 
 #### Running the code
 To generate a pair of UV images from each flow file (previously generated from the datasets' images), follow these steps:
 
-- Go to `MOTS/algorithms/PWC-Net/UV_files/flowiz/flowiz` and open  the **UV_files_generator.py** script.
+- Go to `algorithms/PWC-Net/UV_files/flowiz/flowiz` and open  the **UV_files_generator.py** script.
 - Change the string in variable **a** to a path pointing to the flow-files' folder, and those of variables **b** and **c** to paths pointing to the output folders to which images representing U V channels will be written.
 - Run **UV_files_generator.py**
 
@@ -242,7 +242,7 @@ To obtain the minimum flow value of each flow file (a requirement to run optical
 #### Runing the code
 Follow these steps:
 
-- Navigate to `MOTS/algorithms/PWC-Net/color_files_&_minimum_flow/Middlebury_evaluation` and open the **colorimage_&_minflow.py** script.
+- Navigate to `algorithms/PWC-Net/color_files_&_minimum_flow/Middlebury_evaluation` and open the **colorimage_&_minflow.py** script.
 - Modify the strings within the os.system() method so that it points to the folder containing the flow files. 
 - The minimum and maximum flow values for each flow file's U V channels are part of the terminal output. Make sure to save this output to a log to later extract the minimum-flow values.
 - Run the script
@@ -251,7 +251,7 @@ Follow these steps:
 #### Running the code
 As a final step for using optical flow as a tracking mechanism in TrackR-CNN, you will have to rename the U V files in accordance with the format required by TrackR-CNN. To do so, follow these steps:
 
-- Go to `MOTS/algorithms/PWC-Net/rename_UV/Optical-flow` and open the **Renaming_UV_images** script.
+- Go to `algorithms/PWC-Net/rename_UV/Optical-flow` and open the **Renaming_UV_images** script.
 - Point **log_path** to the logs containing the minimum-flow values and point **path** to a folder containing the UV images.
 - Run the script
 
