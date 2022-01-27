@@ -146,7 +146,7 @@ To train TrackR-CNN on a custom dataset:
     - Experimentally, find the optimal values for the batch size and the number of epochs.
     - Set `"input_size_train"` and `"input_size_val"` to your images' resolution.
 - Change the maximum number of detections:
-    - Navigate to `algorithms/TrackR-CNN/datasets/KITTI/segtrack/KITTI_segtrack.py` and change the variable `N_MAX_DETECTIONS` the maximum number of detections (frame with highest number of targets) in your dataset. A higher value than the highest number would also work.
+    - Navigate to `algorithms/TrackR-CNN/datasets/KITTI/segtrack/KITTI_segtrack.py` and change the variable `N_MAX_DETECTIONS` to the maximum number of detections (frame with highest number of targets) in your dataset. A higher value than the highest number would also work.
 
 
 ### Forwarding and tracking
