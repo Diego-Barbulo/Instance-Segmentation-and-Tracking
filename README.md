@@ -48,7 +48,7 @@ If you want to apply **PWC-Net** together with **Track R-CNN**, instructions are
 TrackR-CNN has been implemented on a high performance computer and on the Anunna High Performance Cluster (HPC).
 
 High performance computer specs:
-- NVIDIA Tital RTX videocard
+- NVIDIA Titan RTX videocard
 - 64 GB RAM memory
 - Intel® Core™ i9-10940X CPU @ 3.30GHz × 28
 - Ubuntu 20.04.1 LTS
