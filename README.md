@@ -186,7 +186,7 @@ where `/path/to/detections/` is the folder containing the detections obtained by
 ### Evaluation
 The code from the [mots_tools repository](https://github.com/VisualComputingInstitute/mots_tools) has been included in this respository to make the evaluation of the results easier and faster.
 
-To obtain all the metrics for your model on the testing dataset, run `eval.py` in `mots_tools/mots_eval`. Before running the script, set the right path to the "mots tools" folder e.g., `sys.path.append(/home/saidlab/Thesis_DiegoBarbuloBarrios/MOTS/algorithms/TrackR-CNN/mots_tools/)`.
+To obtain all the metrics for your model on the testing dataset, run `eval.py` in `mots_tools/mots_eval`. Before running the script, set the right path to the "mots_tools" folder e.g., `sys.path.append(/home/saidlab/Thesis_DiegoBarbuloBarrios/MOTS/algorithms/TrackR-CNN/mots_tools/)`.
 
 #### Counting
 In order to get the counting results of the model on your dataset, run `eval.py` and look at the **TR Trk** metric results (i.e., number of tracks predicted by the model). To test the model's counting efficiency, compare it with the ground truth tracks, which you can find under the metric **GT Trk**.
