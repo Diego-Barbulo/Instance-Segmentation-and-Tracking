@@ -9,7 +9,7 @@ The flowchart below illustrates the steps followed to conduct this research:
 ![](visualizations/Flowchart.png)
 
 # Models
-Configuration files for the models can be found in algorithms/TrackR-CNN. I test two temporal components (3D convolutions and LSTM convolutions), and two tracking mechanisms (optical flow and an association head).
+Configuration files for the models can be found in algorithms/TrackR-CNN. We test two temporal components (3D convolutions and LSTM convolutions), and two tracking mechanisms (optical flow and an association head).
 
 ## Video of TrackR-CNN results
 
@@ -17,7 +17,7 @@ Configuration files for the models can be found in algorithms/TrackR-CNN. I test
 
 ## Dataset
 
-I created my own instance segmentation dataset, which I named **COW_MOTS**, in the fashion of the [KITTI_MOTS dataset](https://www.vision.rwth-aachen.de/page/mots).
+We created our own instance segmentation dataset, which we named **COW_MOTS**, in the fashion of the [KITTI_MOTS dataset](https://www.vision.rwth-aachen.de/page/mots).
 
 COW_MOTS consists of 7 video sequences depicting aerial thermal imagery of cattle collected with a UAV in two outdoor farms in the Netherlands. Data was acquired at three temperatures (10ºC, 19ºC and 26.5ºC), under sunny and overcast weather conditions, at various angles of inclination (including nadir), and at heights ranging between 8-28 meters.
 
@@ -35,7 +35,7 @@ Images and annotations of **COW_MOTS** will be made publicly available soon.
 # Algorithms
 
 ## TrackR-CNN
-Here, I provide a tutorial for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
+Here, we provide a tutorial for applying the TrackR-CNN algorithm for a Multi-Object Tracking and Segmentation (MOTS) task to the COW_MOTS dataset or to a custom dataset.
 
 If you want to apply **PWC-Net** together with **Track R-CNN**, instructions are provided at the end of this README.
 
@@ -201,7 +201,7 @@ To use optical flow as a tracking mechanism, follow the instructions below for g
 PWC-Net detects pixel motion between consecutive frames, so only the cows in movement are detected by the algorithm.
 
 ### PWC-Net
-I use a [simpler reimplementation](https://github.com/sniklaus/pytorch-pwc) of the [official repository](https://github.com/NVlabs/PWC-Net) that provides the same results.
+We use a [simpler reimplementation](https://github.com/sniklaus/pytorch-pwc) of the [official repository](https://github.com/NVlabs/PWC-Net) that provides the same results.
 
 #### Setup
 - Install [Anaconda](https://www.anaconda.com/products/individual)
