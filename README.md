@@ -19,9 +19,9 @@ Configuration files for the models can be found in algorithms/TrackR-CNN. We tes
 
 We created our own instance segmentation dataset, which we named **COW_MOTS**, in the fashion of the [KITTI_MOTS dataset](https://www.vision.rwth-aachen.de/page/mots).
 
-COW_MOTS consists of 7 video sequences depicting aerial thermal imagery of cattle collected with a UAV in two outdoor farms in the Netherlands. Data was acquired at three temperatures (10ºC, 19ºC and 26.5ºC), under sunny and overcast weather conditions, at various angles of inclination (including nadir), and at heights ranging between 8-28 meters.
+COW_MOTS consists of 7 video sequences depicting aerial thermal imagery of cattle collected with a UAV in two outdoor farms in the Netherlands. Data was acquired at three temperatures (10ºC, 19ºC, and 26.5ºC), under sunny and overcast weather conditions, at various angles of inclination (including nadir), and at heights ranging between 8-28 meters.
 
-The COW_MOTS dataset consists of 959 frames, 20.647 masks, and 239 tracks. Ground truth was labelled manually with the Computer Vision Annotation Tool [CVAT](https://github.com/openvinotoolkit/cvat), run in a docker container. Go to the [preprocessing folder](preprocessing/) for instructions on using the annotation tool.
+The COW_MOTS dataset consists of 959 frames, 20.647 masks, and 239 tracks. Ground truth was labeled manually with the Computer Vision Annotation Tool [CVAT](https://github.com/openvinotoolkit/cvat), run in a docker container. Go to the [preprocessing folder](preprocessing/) for instructions on using the annotation tool.
 
 The following images are examples of the seven datasets that comprise COW_MOTS. They illustrate data collected at different atmospheric conditions (temperature and sunlight), heights, and angles of inclination:
 
