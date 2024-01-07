@@ -170,7 +170,7 @@ Visualizations will be stored in `forwarded/<model_name>/vis/tracks`.
 To change the class assigned to the detections (e.g., cow), go to `TrackR-CNN/mots_tools/mots_vis/visualize_mots.py` and change the `category_name` from "Cow" to the desired class. In case you want to detect and track more than one class, also change the second `category_name` from "Pedestrian" to the desired class and, if needed, add more classes.
 
 ### Tuning
-The tuning procedure is used to find the best tracking parameters for the model on a specific dataset. It relies on a random search approach on the training dataset, after which the best parameters are tested on the test dataset and the tracking metrics are calculated.
+The tuning procedure is used to find the best detection and tracking parameters for the model on a specific dataset. It relies on a random search approach on the training dataset, after which the best parameters are tested on the test dataset and the metrics are calculated.
 
 Before running the tuning procedure, make sure to add both training and testing datasets to the **train** folder. In order to specify the training and testing sequences, follow this procedure:
 - Navigate to `algorithms/TrackR-CNN/mots-tools/mots_eval/`
