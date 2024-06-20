@@ -1,5 +1,5 @@
 # Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery
-This repository provides the code, images and annotations of the research "Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery".
+This repository provides the code, images, and annotations of the research "Monitoring Mammalian Herbivores via Convolutional Neural Networks implemented on Thermal UAV imagery" [https://doi.org/10.1016/j.compag.2024.108713](https://www.sciencedirect.com/science/article/pii/S0168169924001042?ssrnid=4442721&dgcid=SSRN_redirect_SD).
 
 # Research
 In the [algorithms](algorithms/) folder, code for applying **TrackR-CNN** and **PWC-Net** to Multi Object Tracking and Segmentation (MOTS) is provided. PWC-Net is tested as an alternative tracking method to the association head used in TrackR-CNN. 
